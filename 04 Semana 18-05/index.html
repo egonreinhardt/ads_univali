@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade da Semana 01/06/2021</title>
+    <link rel="stylesheet" href="style.css"> <!--Link para o CSS da página-->
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <table cellpadding="5" cellspacing="5" width="600">
+            <tr>
+            <td>Primeiro Número</td>
+            <td>Segundo Número</td>
+            <td>Resultado</td>
+            </tr>
+            <tr>
+            <td><input name="number1" type="text" size=10 id='num1'/></td>
+            <td><input name="number2" type="text" size=10 id='num2'/></td>
+            <td> <input type="text" id='resultado' readonly ></td>
+            </tr>
+            <tr>
+            <td colspan="3">
+            <button onclick="resultado('1')">+</button>
+            <button onclick="resultado('2')">-</button>
+            <button onclick="resultado('3')">x</button>
+            <button onclick="resultado('4')">÷</button>
+            </td>
+            </tr>
+            </table>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
