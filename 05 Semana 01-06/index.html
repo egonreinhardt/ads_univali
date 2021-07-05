@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade da Semana 15/06/2021</title>
+    <link rel="stylesheet" href="style.css"> <!--Link para o CSS da página-->
+</head>
+<body>
+    <header>
+        <h1>Formulário com validação</h1>
+        <p>Validação: Tente deixar o campo Nome em branco.</br>
+    </header>
+    <section>
+        <form name="myForm" action="/action_page.php" onsubmit="return validacao()" method="post">
+            Nome: <input type="text" name="fname">
+            <input type="submit" value="Submit"></br>
+            Idade: <input type="text" name="idade"></br>
+            Rua: <input type="text" name="rua"></br>
+            Cidade: <input type="text" name="cidade"></br>
+            </form>
+    </section>
+    <footer>
+        <p>&copy; EgonReinhardt</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
